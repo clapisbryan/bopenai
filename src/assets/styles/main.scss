@@ -1,0 +1,12 @@
+@import 'custom-variables.scss';
+@import 'custom-bootstrap.scss';
+
+// Your custom styles
+body {
+    background-color: $dark;
+    color: $white;
+}
+
+.custom-height {
+    height: calc(100vh - 140px);
+}

@@ -1,0 +1,27 @@
+$primary: #a234fd;
+$sub-primary: #ecaa00;
+$secondary: #cfd7e5;
+$success: #26c882;
+$danger: #ef6060;
+$warning: #ff8d29;
+$info: #40dec3;
+$text-color: #1e213d;
+$white: #ffffff;
+$sub-color: #8897b2;
+$border-color: $secondary;
+$body-bg: #F8F8FC;
+$sub-body-bg: #EFF3FB;
+$dark: #000000;
+
+$body-font: 'Source Sans Pro', sans-serif;
+$heading-font: 'Montserrat', sans-serif;
+
+$border-radius: 8px;
+
+$badge-colors: (
+    primary: $primary,
+    success: $success,
+    danger: $danger,
+    warning: $warning,
+    info: $info,
+);
