@@ -1,12 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 @import 'custom-variables.scss';
 @import 'custom-bootstrap.scss';
 
 // Your custom styles
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 body {
     background-color: $dark;
     color: $white;
+    font-family: "Open Sans", serif;
 }
 
 .custom-height {
     height: calc(100vh - 140px);
+}
+
+.side-bar {
+    height: 100%;
+    width: 320px;
+}
+
+.main {
+    height: 100%;
+    width: 100%;
 }

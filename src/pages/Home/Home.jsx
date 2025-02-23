@@ -18,7 +18,7 @@ const Home = () => {
                                 <strong>Start chatting now and experience the future of AI!</strong>
                             </p>
 
-                            <Link to="/chat" className="btn btn-md btn-outline-primary rounded-5">Try it now</Link>
+                            <Link to="/chat" className="btn btn-md btn-light rounded-3">Try it now</Link>
                         </div>
                         <div className="col-12 col-lg-6 mb-3 mb-lg-0"></div>
                     </div>
